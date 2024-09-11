@@ -11,6 +11,14 @@ int main()
 
 	Manager m1;
 
+	m1.setName("Mary");
+	m1.setSalary(5000);
+	m1.setTeamName("Finance1");
+
+	e1.PrintInfo();
+
+	m1.PrintInfo();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
