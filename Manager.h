@@ -8,5 +8,6 @@ private:
 public:
 	void setTeamName(string tn);
 	string getTeamName();
+	void PrintInfo();// override 
 };
 
