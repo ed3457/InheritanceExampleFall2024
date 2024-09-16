@@ -9,5 +9,8 @@ public:
 	void setTeamName(string tn);
 	string getTeamName();
 	void PrintInfo();// override 
+
+	Manager();
+	Manager(string n, float s, string tn);
 };
 

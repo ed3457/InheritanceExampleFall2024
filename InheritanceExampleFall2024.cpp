@@ -9,11 +9,11 @@ int main()
 {
 	Employee e1("James", 2000);
 
-	Manager m1;
+	Manager m1("Mary",5000,"Finance1");
 
-	m1.setName("Mary");
+	/*m1.setName("Mary");
 	m1.setSalary(5000);
-	m1.setTeamName("Finance1");
+	m1.setTeamName("Finance1");*/
 
 	e1.PrintInfo();
 
